@@ -1,5 +1,0 @@
-markdown: redcarpet
-exclude: ["vendor", "Gemfile", "Gemfile.lock", ".git", ".gitignore", ".bundle", "README.md"]
-sass:
-  sass_dir: _sass
-  style: compressed

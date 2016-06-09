@@ -1,0 +1,223 @@
+@import 'bootstrap';
+
+body {
+  margin-top:80px;
+  font-family: Helvetica, sans-serif;
+  background-image: url(/static/images/texture.png);
+}
+
+b {
+  color:#000;
+}
+
+.navbar-default {
+  background-color:#87514f;
+}
+.navbar {
+  border-radius:0;
+}
+
+.navbar-brand {
+  padding:7px 15px;
+}
+
+.navbar-header h1 {
+  font-size:1.2em;
+  font-weight:bold;
+  margin:0;
+  color:#333;
+}
+.navbar-header h1 a {
+  display:block;
+  margin:8px 0;
+}
+.navbar-header h1 img {
+  display:block;
+  width:36px;
+  height:36px;
+  margin-right:0.4em;
+}
+
+.jumbotron {
+  background-image: url(/static/images/banner.jpg);
+  background-color:#fff;
+  color:#111;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #ddd;
+}
+.jumbotron p {
+  background-color:#fff;
+  color:#111;
+  opacity:0.95;
+  padding:0.3em;
+}
+.jumbotron b {
+  color:#111;
+}
+.jumbotron h2 {
+  opacity:0.95;
+  display:inline-block;
+  padding:0.3em;
+  background-color:#fff;
+  font-weight:bold;
+  font-size:1.8em;
+}
+
+nav {
+  margin-bottom:3em !important;
+}
+
+nav a:link,
+nav a:visited {
+  color:#fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a {
+  color:#fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color:#b78685;
+}
+.navbar-default .navbar-nav > li> a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color:#fff;
+}
+
+.nav-menu {
+  font-size:1.3rem;
+}
+
+hr {
+  border-color:#ddd;
+}
+
+a:link,
+a:visited {
+  color:#a0544c;
+}
+
+header {
+  width:500px;
+  margin:1em auto;
+}
+
+header h1 {
+  font-weight:bold;
+}
+
+header h1 a:link,
+header h1 a:visited {
+  color:#333;
+}
+
+#logo-image {
+  margin-right:1em;
+}
+
+#logo-image img {
+  width:100px;
+  heigth:100px;
+}
+
+#title ul {
+  font-size:1.2em;
+}
+
+h1 a:hover,
+#title ul li a:hover {
+  text-decoration:none;
+}
+
+#title ul li.active {
+  font-weight:bold;
+}
+
+#cards {
+  margin:0 auto;
+}
+
+.card {
+  text-align:center;
+}
+
+#cards a:link,
+#cards a:visited,
+#cards a:visited {
+  text-decoration:none;
+    color:#333;
+}
+
+.card img {
+  margin-bottom:8px;
+  dipslay:inline-block;
+  max-width:100%;
+}
+
+.card h4 {
+  color:#a0544c;
+  font-weight:bold;
+  font-size:1.0em;
+  margin:0.5em 0;
+}
+
+.panel {
+  background-color:#f0e5e5;
+}
+.panel p,
+.panel ul,
+.panel dl {
+  font-size:1.3em;
+  line-height:1.5em;
+}
+.panel ul {
+  padding-left:1em;
+}
+h3 b {
+  color:#444;
+}
+dd {
+  margin-left:1em;
+  margin-bottom:0.5em;
+}
+
+#map {
+  width:100%;
+  min-height:500px;
+  padding:2px 3px;
+  border:1px solid #ccc;
+  margin:0 auto;
+}
+
+footer {
+  width:80%;
+  margin:4em auto;
+  padding-top:1em;
+  border-top:1px solid #ccc;
+  font-style:italic;
+  text-align:center;
+}
+footer .card {
+  max-width:200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron p {
+    font-size:1.1em;
+  }
+  .jumbotron h2 {
+    font-size:1.2em;
+  }
+  #map {
+    min-height:300px;
+  }
+}
+
+.navbar-default .navbar-toggle {
+  background-color:#ddd;
+}
